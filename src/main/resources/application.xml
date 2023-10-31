@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user01" class="com.wanfeng.divSpring.entity.User">
+        <property name="id" value="1"/>
+        <property name="username" value="zhangsan"/>
+        <property name="password" value="123456"/>
+        <property name="idcard" value="322222558874"/>
+    </bean>
+</beans>
