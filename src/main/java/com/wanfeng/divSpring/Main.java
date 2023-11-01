@@ -15,7 +15,7 @@ public class Main {
 ////        vehicleProxy.run();
 ////        vehicleProxy.setVehicle(new Ship());
 ////        vehicleProxy.run();
-//        VehicleProxyProvider vehicleProxyProvider = new VehicleProxyProvider();
+        VehicleProxyProvider vehicleProxyProvider = new VehicleProxyProvider();
 //        Vehicle proxy = vehicleProxyProvider.getProxy(new Car());
 //        Vehicle proxy1 = vehicleProxyProvider.getProxy(new Ship());
 //        proxy.run();
